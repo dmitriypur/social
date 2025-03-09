@@ -2,7 +2,7 @@ name: First Workflow
 on: [push]
 
 jobs:
-  run0first-command:
+  run-first-command:
     runs-on: ubuntu-latest
     steps:
       - name: Display some text
